@@ -27,7 +27,8 @@ body {
     color: rgb(218, 164, 32);
 }
 
-h1 {
-    text-align: center;
-    font-family: 'moon_flowerregular';
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
