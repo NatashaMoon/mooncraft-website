@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'moon_flowerregular';
+    src: url('moon_flower-webfont.woff2') format('woff2'),
+         url('moon_flower-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -9,9 +17,10 @@ body {
 
 .nav-link {
     color: rgb(23,33,94);
-    font-size: 20px;
+    font-size: 34px;
     font-weight: bolder;
     border-bottom: 2px solid rgb(23,33,94);
+    font-family: 'moon_flowerregular';
 }
 
 .nav-link:hover {
@@ -20,4 +29,5 @@ body {
 
 h1 {
     text-align: center;
+    font-family: 'moon_flowerregular';
 }
