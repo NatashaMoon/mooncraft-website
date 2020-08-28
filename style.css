@@ -1,0 +1,23 @@
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: rgb(23,33,94);
+    font-size: 20px;
+    font-weight: bolder;
+    border-bottom: 2px solid rgb(23,33,94);
+}
+
+.nav-link:hover {
+    color: rgb(218, 164, 32);
+}
+
+h1 {
+    text-align: center;
+}
