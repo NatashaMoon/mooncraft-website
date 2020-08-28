@@ -20,7 +20,7 @@ body {
     font-size: 34px;
     font-weight: bolder;
     border-bottom: 2px solid rgb(23,33,94);
-    font-family: 'moon_flowerregular';
+    font-family: 'moon_flowerregular', Arial, Helvetica, sans-serif;
 }
 
 .nav-link:hover {
@@ -33,3 +33,9 @@ body {
     margin-right: auto;
 }
 
+.card-title {
+    font-family: 'moon_flowerregular', Arial, Helvetica, sans-serif;
+    color: rgb(23,33,94);
+    font-weight: bolder;
+    font-size: 34px;
+}
